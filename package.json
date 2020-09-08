@@ -1,0 +1,33 @@
+{
+    "name": "okabe-ito",
+    "displayName": "Okabe Ito",
+    "description": "Colourblind-friendly scheme for Visual Studio Code, based on the colour palette designed by Okabe and Ito",
+    "version": "0.1.0",
+    "publisher": "ccsobral",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ccsobral/okabe-ito-vscode-theme"
+    },
+    "keywords": [
+        "theme",
+        "colorblind theme",
+        "colourblind theme",
+        "dark theme"
+    ],
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Okabe Ito",
+                "uiTheme": "vs-dark",
+                "path": "./themes/okabe-ito.color-theme.json"
+            }
+        ]
+    }
+}
