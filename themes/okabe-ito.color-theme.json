@@ -228,5 +228,28 @@
         "foreground": "#803700"
       }
     },
+    {
+      "name": "Markdown Heading",
+      "scope": "markup.heading.markdown",
+      "settings": {
+        "foreground": "#805700",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown List",
+      "scope": "markup.list",
+      "settings": {
+        "foreground": "#009e73",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Markdown Bold",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
   ]
 }
