@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.3.0
+- Included test code to show the palette in Python, C++, and Markdown
+- More Markdown rules
+- Status bar not orange in debug mode anymore
+- Included some screenshots in README
+
 ## 0.2.0
 - Added some Markdown rules
 - Expanded the README

@@ -103,6 +103,8 @@
     "statusBar.border": "#005180",
     "statusBar.foreground": "#0072b2",
     "statusBar.noFolderBackground": "#000000",
+    "statusBar.debuggingBackground": "#005180",
+    "statusBar.debuggingForeground": "#000000",
 
     "titleBar.activeBackground": "#000000",
     "titleBar.activeForeground": "#0072b2",
@@ -165,7 +167,7 @@
       "name": "Class+Function Def",
       "scope": [
         "meta.class",
-        "meta.head.class",
+        "entity.name.type.class",
         "entity.name.function.python",
         "entity.name.function.definition",
         "entity.name.type.constructor",
@@ -229,6 +231,16 @@
       }
     },
     {
+      "name": "Endline",
+      "scope": [
+        "punctuation.terminator.statement"
+      ],
+      "settings": {
+        "foreground": "#009e73",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Markdown Heading",
       "scope": "markup.heading.markdown",
       "settings": {
@@ -249,6 +261,13 @@
       "scope": "markup.bold",
       "settings": {
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Italics",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
       }
     },
   ]
