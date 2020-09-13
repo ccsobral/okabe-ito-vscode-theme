@@ -2,7 +2,7 @@
     "name": "okabe-ito",
     "displayName": "Okabe Ito",
     "description": "Colourblind-friendly scheme for Visual Studio Code, based on the colour palette designed by Okabe and Ito",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "ccsobral",
     "license": "MIT",
     "repository": {
