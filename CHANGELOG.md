@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.4.0
+- Added some JS/React rules
+
 ## 0.3.0
 - Included test code to show the palette in Python, C++, and Markdown
 - More Markdown rules

@@ -29,19 +29,24 @@ If you'd find that useful, let me know.
 
 ## Screenshots
 
-![Full Screen](full_screen.png)
+![Full Screen](./screenshots/full_screen.png)
 
 <br>
 
 ### Python
-![Python](python.png)
+![Python](./screenshots/python.png)
 
 <br>
 
 ### C++
-![CPP](cpp.png)
+![CPP](./screenshots/cpp.png)
 
 <br>
 
 ### Markdown
-![Markdown](markdown.png)
+![Markdown](./screenshots/markdown.png)
+
+<br>
+
+### React/JS
+![React](./screenshots/reactjs.png)

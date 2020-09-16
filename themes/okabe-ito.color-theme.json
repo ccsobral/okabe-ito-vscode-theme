@@ -155,6 +155,7 @@
       "scope": [
         "variable.language.special", 
         "variable.parameter.function.language.special",
+        "variable.language.this",
         "storage.type.class",
         "storage.type.function"
       ],
@@ -166,10 +167,11 @@
     {
       "name": "Class+Function Def",
       "scope": [
-        "meta.class",
         "entity.name.type.class",
         "entity.name.function.python",
         "entity.name.function.definition",
+        "meta.definition.function",
+        "meta.definition.method",
         "entity.name.type.constructor",
         "punctuation.separator.scope-resolution.constructor",
         "entity.name.type.destructor",
@@ -187,9 +189,10 @@
       "name": "Function Call",
       "scope": [
         "meta.function-call.generic",
+        "meta.function-call.js",
         "support.function.builtin",
         "keyword.operator.functionlike",
-        "entity.name.function.call"
+        "entity.name.function.call",
       ],
       "settings": {
         "foreground": "#663c53",
@@ -201,7 +204,8 @@
       "scope": [
         "keyword.control",
         "keyword.operator.logical",
-        "constant.language"
+        "constant.language",
+        "storage.modifier.js"
       ],
       "settings": {
         "foreground": "#cc79a7"
@@ -211,7 +215,7 @@
       "name": "Type",
       "scope": [
         "support.type.python",
-        "storage.type.primitive",
+        "storage.type.js",
         "storage.type.built-in",
         "storage.modifier.specifier"
       ],
@@ -268,6 +272,26 @@
       "scope": "markup.italic",
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JSX Tags",
+      "scope": [
+        "entity.name.tag.js",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#009e73",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JSX props",
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#803700"
       }
     },
   ]
